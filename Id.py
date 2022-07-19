@@ -15,7 +15,7 @@ clave = controlador.find_element_by_id("id_password")
 
 usuario.send_keys("calavera_rip@outlook.com")#le ingreso valores a los script de arriba
 time.sleep(5)
-clave.send_keys("losBKrifanputa")
+clave.send_keys("losBKrifanputas")
 
 boton = controlador.find_element_by_id("submit-id-submit")
 boton.click()

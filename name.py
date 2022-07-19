@@ -8,7 +8,7 @@ usuario = controlador.find_element_by_name("email")
 clave = controlador.find_element_by_name("password")
 
 usuario.send_keys("calavera_rip@outlook.com")
-clave.send_keys("losBKrifanputa")
+clave.send_keys("losBKrifanputas")
 
 boton = controlador.find_element_by_name("submit")
 boton.click()
